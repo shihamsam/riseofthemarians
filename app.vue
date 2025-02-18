@@ -7,12 +7,12 @@ import { onMounted } from "vue";
 import { useFlowbite } from "~/composables/useFlowbite";
 
 useSeoMeta({
-  title: "P/FBMV - Grade 6 - 2025",
-  ogTitle: "P/FBMV - Grade 6 - 2025",
+  title: "Rise of the Marians - Hambantota",
+  ogTitle: "Rise of the Marians - Hambantota",
   description:
-    "This is the official website of P/FBMV - Grade 6 - 2025. We aim to provide the best education for our students.",
+    "This is the official website of Rise of the Marians - Hambantota. We aim to provide the best education and facilities for our students.",
   ogDescription:
-    "This is the official website of P/FBMV - Grade 6 - 2025. We aim to provide the best education for our students.",
+    "This is the official website of Rise of the Marians - Hambantota. We aim to provide the best education and facilities for our students.",
   ogImage: "/images/logo.jpg",
   twitterCard: "summary_large_image",
 });
