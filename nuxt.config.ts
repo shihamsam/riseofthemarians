@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "P/FBMV - Grade 6 - 2025",
+      title: "Rise of the Marians - Hambantota",
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
     },

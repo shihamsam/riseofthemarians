@@ -1,17 +1,12 @@
 <template>
   <main>
-    <section class="relative bg-green-900 text-white pt-32 pb-8">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 class="text-4xl font-bold mb-4">
-          Contact Us for your
-          <span class="text-yellow-400 animate-pulse">Donations</span>
-        </h1>
-
-        <p class="text-xl mb-1">
-          Support our mission to renovate and improve our school facilities
-        </p>
-      </div>
-    </section>
+    <HeroTitle>
+      <template #title>Our Committee Members</template>
+      <template #subtitle>
+        Support our mission to make St.Mary's College a better place for our
+        students.</template
+      >
+    </HeroTitle>
     <section class="relative pt-8 pb-8">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div>
@@ -32,7 +27,7 @@
                   aria-controls="dashboard"
                   aria-selected="true"
                 >
-                  Grade 6 - Building Committee
+                  Rise of the Marians Committee
                 </button>
               </li>
               <li class="me-2" role="presentation">
@@ -108,12 +103,12 @@
             >
               <div class="bg-white p-6 rounded-lg shadow-lg">
                 <h3 class="text-xl font-semibold mb-6">
-                  Grade 6 - Building Committee
+                  Rise of the Marians Committee
                 </h3>
 
                 <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-5">
                   <MyProfile
-                    v-for="profile in grade6CommitteeMembers"
+                    v-for="profile in riseOfTheMariansCommitteeMembers"
                     :key="profile.name"
                     :profile-image="profile.profileImage"
                   >
@@ -187,6 +182,7 @@ const classRoomsEstimation = "/docs/002_estimation.pdf";
 const sanitationEstimation = "/docs/002_estimation.pdf";
 
 const route = useRoute();
+import { initFlowbite } from "flowbite";
 import { useFlowbite } from "~/composables/useFlowbite";
 
 onMounted(() => {
@@ -195,11 +191,11 @@ onMounted(() => {
   });
 });
 
-const grade6CommitteeMembers = [
+const riseOfTheMariansCommitteeMembers = [
   {
     title: "President",
-    name: "Mr. Aashiq",
-    phone: "+94 72 918 2166",
+    name: "NAME",
+    phone: "+94 77 777 7777",
     designation: "Designation",
     company: "Organization",
     profileImage: "",
@@ -207,57 +203,31 @@ const grade6CommitteeMembers = [
   },
   {
     title: "Treasurer",
-    name: "SFM RAMEEZ",
-    phone: "+94 71 720 2040",
-    designation: "Managing Director",
-    company: "Mega Group of Companies",
-    profileImage: "/images/profiles/rameez-profile.png",
+    name: "NAME",
+    phone: "+94 77 777 7777",
+    designation: "Designation",
+    company: "Organization",
+    profileImage: "",
     email: "",
   },
+
   {
     title: "Secretary",
-    name: "MJ Mohamed Naleem",
-    phone: "+94 71 920 0006",
-    designation: "Building Contractor",
-    company: "Faargo Construction (Pvt) Ltd",
-    profileImage: "",
-    email: "fargopx@gmail.com",
-  },
-  {
-    title: "Member",
-    name: "Mr. Gadafi",
-    phone: "+94 74 243 4352",
+    name: "NAME",
+    phone: "+94 77 777 7777",
     designation: "Designation",
     company: "Organization",
     profileImage: "",
     email: "",
   },
   {
-    title: "Member",
-    name: "Mr. Jaleel",
-    phone: "+94 77 345 7930",
+    title: "Member 1",
+    name: "NAME",
+    phone: "+94 77 777 7777",
     designation: "Designation",
     company: "Organization",
     profileImage: "",
     email: "",
-  },
-  {
-    title: "Member",
-    name: "Mr. Kamazy",
-    phone: "+94 78 324 3344",
-    designation: "Designation",
-    company: "Organization",
-    profileImage: "",
-    email: "",
-  },
-  {
-    title: "Member",
-    name: "MS Samsudeen",
-    phone: "+94 71 554 8857",
-    designation: "Software Engineer",
-    company: "Graycorp Pty Ltd",
-    profileImage: "/images/profiles/shiham-profile.png",
-    email: "shiham247@gmail.com",
   },
 ];
 
@@ -289,6 +259,15 @@ const ppaMembers = [
     profileImage: "",
     email: "",
   },
+  {
+    title: "Member 1",
+    name: "NAME",
+    phone: "+94 77 777 7777",
+    designation: "Designation",
+    company: "Organization",
+    profileImage: "",
+    email: "",
+  },
 ];
 
 const sdcMembers = [
@@ -314,6 +293,15 @@ const sdcMembers = [
     title: "Secretary",
     name: "NAME",
     phone: "+94 XX XXX XXXX",
+    designation: "Designation",
+    company: "Organization",
+    profileImage: "",
+    email: "",
+  },
+  {
+    title: "Member 1",
+    name: "NAME",
+    phone: "+94 77 777 7777",
     designation: "Designation",
     company: "Organization",
     profileImage: "",

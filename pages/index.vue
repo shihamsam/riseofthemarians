@@ -1,41 +1,57 @@
-<script setup lang="ts">
-definePageMeta({
-  layout: "underconstruction",
-});
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div
-    class="min-h-screen bg-gray-900 flex flex-col items-center justify-center relative px-4"
-  >
-    <!-- <div
-      class="absolute top-0 left-0 w-full h-full bg-contain bg-no-repeat opacity-100 lg:hidden bg-white"
-      style="
-        background-image: url('/underconstruction/riseofthemarians-backdrop.jpg');
-      "
+  <main>
+    <!-- Hero Section -->
+    <!-- <section
+      class="relative text-white py-32 bg-[url(../images/hero/hero_image.png)] bg-no-repeat bg-cover"
     > -->
-    <div
-      class="absolute top-0 left-0 w-full h-full bg-contain bg-no-repeat opacity-100 xl:hidden bg-white"
+    <section
+      class="flex flex-col align-middle items-center text-white mt-24 bg-white bg-no-repeat bg-cover"
     >
-      <img
-        src="/underconstruction/riseofthemarians-backdrop.jpg"
-        layout="fill"
-      />
-      <h1
-        class="text-5xl md:text-5xl text-gray-500 text-center font-bold mb-8 z-10 pt-16"
-      >
-        Coming Soon
-      </h1>
-      <p class="text-gray-600 text-xl text-center p-10 md:p-6 md:text-2xl">
-        We're working hard to bring you something amazing. Stay tuned!
-      </p>
-    </div>
+      <img src="/images/hero/riseofthemarians-backdrop.jpg" alt="logo" />
 
-    <div
-      class="absolute top-0 left-0 w-full h-full bg-cover bg-center opacity-100 max-xl:hidden"
-      style="
-        background-image: url('/underconstruction/riseofthemarians-backdrop.jpg');
-      "
-    ></div>
-  </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1
+          class="hidden text-4xl mt-10 font-bold mb-4 drop-shadow-lg items-center"
+        >
+          Thriving Together for a Promising Tomorrow
+        </h1>
+      </div>
+    </section>
+
+    <!-- Goals Section -->
+    <!-- <section class="py-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-700">
+          Our Goals for a Better Learning Environment
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <MyCard>
+            <template #title> Classroom Complex with Furniture</template>
+            Renovating Grade 6 classrooms and furniture to create a better
+            learning environment
+          </MyCard>
+          <MyCard>
+            <template #title> Sanitation Facilities</template>
+            Upgrading toilets and washing facilities
+          </MyCard>
+          <MyCard>
+            <template #title> Access Road</template>
+            Improving accessibility for students and staff
+          </MyCard>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Class Rooms Section -->
+    <section class="py-10 flex flex-col items-center">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-600">
+          Rise of the Marians - Project Proposals
+        </h2>
+        <ProjectProposalGallery />
+      </div>
+    </section>
+  </main>
 </template>

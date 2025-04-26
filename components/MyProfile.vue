@@ -2,7 +2,7 @@
   <div
     class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
   >
-    <div class="text-xl text-white bg-[#14532d] p-2 block rounded-t-lg">
+    <div class="text-xl text-white bg-[#253b9b] p-2 block rounded-t-lg">
       <slot name="title">Role</slot>
     </div>
     <div class="flex flex-col items-center p-5 gap-2">

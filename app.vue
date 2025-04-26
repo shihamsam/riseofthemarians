@@ -13,7 +13,7 @@ useSeoMeta({
     "This is the official website of Rise of the Marians - Hambantota. We aim to provide the best education and facilities for our students.",
   ogDescription:
     "This is the official website of Rise of the Marians - Hambantota. We aim to provide the best education and facilities for our students.",
-  ogImage: "/images/logo.jpg",
+  ogImage: "/images/logo.png",
   twitterCard: "summary_large_image",
 });
 
