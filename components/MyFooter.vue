@@ -15,7 +15,7 @@
             alt="St.Mary's College - Hambantota Logo"
           />
           <span
-            class="self-center lg:text-2xl font-semibold whitespace-nowrap dark:text-white"
+            class="hidden lg:block self-center lg:text-2xl font-semibold whitespace-nowrap dark:text-white"
             >St.Mary's College - Hambantota</span
           >
         </NuxtLink>

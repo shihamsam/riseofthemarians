@@ -118,6 +118,7 @@ const sanitationEstimation = "/docs/002_estimation.pdf";
 const route = useRoute();
 import Project01EstimateGallery from "~/components/ProjectEstimateGallery.vue";
 import { useFlowbite } from "~/composables/useFlowbite";
+import { initFlowbite } from "flowbite";
 
 onMounted(() => {
   useFlowbite(() => {

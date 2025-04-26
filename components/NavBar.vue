@@ -16,7 +16,7 @@ import { NuxtLink } from "#components";
           alt="Rise of the Marians Logo"
         />
         <span
-          class="lg:block text-sm lg:text-[1rem] self-center font-semibold whitespace-nowrap dark:text-white"
+          class="hidden lg:block lg:text-[1rem] self-center font-semibold whitespace-nowrap dark:text-white"
           >St.Mary's College - Hambantota</span
         >
       </NuxtLink>

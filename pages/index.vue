@@ -3,11 +3,9 @@
 <template>
   <main>
     <!-- Hero Section -->
-    <!-- <section
-      class="relative text-white py-32 bg-[url(../images/hero/hero_image.png)] bg-no-repeat bg-cover"
-    > -->
+
     <section
-      class="flex flex-col align-middle items-center text-white mt-24 bg-white bg-no-repeat bg-cover"
+      class="flex flex-col align-middle items-center text-white mt-28 lg:mt-24 bg-white bg-no-repeat bg-cover"
     >
       <img src="/images/hero/riseofthemarians-backdrop.jpg" alt="logo" />
 
