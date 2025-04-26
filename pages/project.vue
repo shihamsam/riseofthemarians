@@ -70,7 +70,7 @@
               <div class="bg-white p-6 rounded-lg shadow-lg">
                 <h3 class="text-xl font-semibold mb-4">Assembly Area</h3>
                 <p class="text-gray-600 mb-4">
-                  Estimation of expences Project No.1
+                  Estimation of expenses Project No.1
                 </p>
 
                 <ProjectEstimateGallery
@@ -88,7 +88,7 @@
               <div class="bg-white p-6 rounded-lg shadow-lg">
                 <h3 class="text-xl font-semibold mb-4">School Ground</h3>
                 <p class="text-gray-600 mb-4">
-                  Estimation of expences Project No.2
+                  Estimation of expenses Project No.2
                 </p>
               </div>
             </div>
