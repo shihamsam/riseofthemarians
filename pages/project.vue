@@ -74,7 +74,7 @@
                 </p>
 
                 <ProjectEstimateGallery
-                  :folderName="proj01Estimates"
+                  :folderName="proj01estimates"
                   :itemCount="4"
                 />
               </div>

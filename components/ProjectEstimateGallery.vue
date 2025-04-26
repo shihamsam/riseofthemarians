@@ -26,7 +26,7 @@ const normalizeSlideNumber = (number) => {
 defineProps({
   folderName: {
     type: String,
-    default: "proj01Estimates",
+    default: "proj01estimates",
   },
   itemCount: {
     type: Number,
